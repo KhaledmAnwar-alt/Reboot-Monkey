@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+.body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 78%;
+    margin: auto;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar-scrolled {
+
+    background-color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.842);
+}
+
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.head h3 {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: yellow;
+}
+
+.head h2 {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.head p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.top {
+    background-image: url(../images/Cellen.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.strip {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 0, 0.6);
+    color: black !important;
+    text-align: center;
+}
+
+.strip::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(255, 255, 0, 0.6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: skewy(1.5deg);
+}
+
+.strip::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "One reliable and affordable partner for all your data center related needs";
+    color: black;
+    right: 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 1%;
+}
+
+.main img {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+
+.info {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.stats p {
+    font-size: 14px;
+    font-weight: 400;
+    color: yellow;
+}
+
+.main1 {
+    display: flex;
+}
+
+.serv-info {
+    width: 50%;
+}
+
+.serv-info2 {
+    width: 50%;
+}
+
+
+
+.widget img {
+    width: 80%;
+}
+
+.foot img {
+    width: 60%;
+}
+
+.line {
+    width: 0.5px;
+    height: 100%;
+    background: rgb(190, 61, 141);
+    position: absolute;
+    left: 150px;
+}
+
+.line2 {
+    width: 0.5px;
+    height: 100%;
+    background: rgb(190, 61, 141);
+    position: absolute;
+    right: 150px;
+}
+
+.page {
+    position: relative;
+    z-index: 999;
+}
+
+.img {
+
+    background-image: url(../images/rm373batch2-04\ 1.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pic {
+    position: absolute;
+    right: 0%;
+    width: 300px;
+    height: 700px;
+    background-image: url(../images/Cellen.png);
+
+}
